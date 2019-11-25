@@ -29,6 +29,7 @@ hr {
 }
 
 .bottom {
+  font-family: "Noto Sans KR", sans-serif;
   display: flex;
   margin: 50px 15%;
   justify-content: space-between;
