@@ -1,0 +1,84 @@
+.mid {
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+  line-height: normal;
+}
+
+.mid .left {
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mid .right {
+  width: 30%;
+}
+
+.mid .title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+hr {
+  margin: 20px 0px;
+}
+
+.bottom {
+  display: flex;
+  margin: 50px 15%;
+  justify-content: space-between;
+  line-height: normal;
+}
+
+.bottom .card {
+  width: 30%;
+  border: rgba(0, 0, 0, 0.3);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card .title {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.card .subtitle {
+  margin-left: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.bottom .btn_background {
+  background-color: #f7f7f7;
+  display: flex;
+  border-top: solid 0.8px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.bottom .btn_background .btn:hover {
+  background-color: #0261cd;
+}
+
+.bottom .btn_background .btn {
+  margin-left: 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #057bff;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
