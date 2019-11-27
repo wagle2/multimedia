@@ -48,6 +48,9 @@ i {
   border-style: solid;
   border-radius: 5px;
 }
+.main_icon i {
+  text-decoration: none;
+}
 
 a {
   text-decoration: none;
